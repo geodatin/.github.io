@@ -1,0 +1,36 @@
+
+.nav-part {
+    background-color: #1e1e1e;
+}
+
+.section1 {
+    background:  #1e1e1e;
+}
+
+.img-1 {
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.text-home {
+    margin-top: 60px;
+    color: #D3D3D3;
+}
+
+.text-project {
+    margin-top: 60px;
+}
+
+footer {
+    background:  #1e1e1e;  
+}
+
+.text-footer {
+    color: #D3D3D3;
+}
+
+.footer-part2 {
+    color: #D3D3D3;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}

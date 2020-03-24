@@ -4,22 +4,213 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geodatin</title>
+
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <style>
-        body {
-            background-color: #fff0c4;
-        }
-        .inicio {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 130px;
-            width: 50%;
-        }
-    </style>
-    <div class="body">
-        <img class="inicio" src="logo_semFundo.png" alt="">
+  <nav class="navbar navbar-expand-lg navbar-dark nav-part fixed-top">
+    <div class="container">
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#sobre">Sobre</a>
+          <a class="nav-item nav-link" href="#equipe">Equipe</a>
+          <a class="nav-item nav-link" href="#projeto">Projetos</a>
+        </div>
+      </div>
     </div>
+  </nav>
+
+    <section class="section1" id="sobre">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 d-flex align-items-center img-1">
+            <img class="figura-1" width="90%" src="img/geodatin-white.png">
+          </div>
+          <div class="col-md-5 text-home align-self-center">  
+            <h4 class="text-center font-weight-bold mb-2">
+              Com objetivo de colocar  ideias, ciência, dados e inspirações em Mapas, fundamos a Geodatin. 
+            </h4>
+            <h5 class="text-center font-italic">
+              Aqui construímos soluções técnológicas de ponta a ponta, 
+              desde os mais robustos processamentos de inteligência artificial 
+              até aplicações web e mobile intuitivas, para os mais diversos fins.
+            </h5>
+          </div>
+        </div>
+    </section>
+
+    <section class="my-5" id="equipe">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="col-md-6 col-sm-12">
+              <div class="card my-3" style="width: 70%;">
+                <div class="card-body">
+                  <img class="card-img" src="img/fotos/Diego.jpeg" alt="">
+                  <h6 class="card-title mt-2">Diêgo Costa</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Sócio Fundador</h6>
+                  <a class="card-link" href="https://www.linkedin.com/in/di%C3%AAgo-costa-179857179/" target="_blank"><img src="img/linkedin.png" alt="linkedin-icon"></a>
+                 </div>
+              </div>
+            </div>
+  
+            <div class="col-md-6 col-sm-12">
+              <div class="card my-3" style="width: 70%;">
+                <div class="card-body">
+                  <img class="card-img" src="img/github_cat.jpg" alt="">
+                  <h6 class="card-title mt-2">Rodrigo Vasconcelos</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Sócio Fundador</h6>
+                  <a class="card-link" href="#" target="_blank"><img src="img/linkedin.png" alt="linkedin-icon"></a>
+                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="col-md-6 col-sm-12">
+              <div class="card my-3" style="width: 70%;">
+                <div class="card-body">
+                  <img class="card-img" src="img/fotos/Soltan.jpg" alt="">
+                  <h6 class="card-title mt-2">Soltan Galano</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Sócio Fundador</h6>
+                  <a class="card-link" href="https://www.linkedin.com/in/soltan-galano-duverger-2a10907b/" target="_blank"><img src="img/linkedin.png" alt="linkedin-icon"></a>
+                 </div>
+              </div>
+            </div>
+  
+            <div class="col-md-6 col-sm-12">
+              <div class="card my-3" style="width: 70%;">
+                <div class="card-body">
+                  <img class="card-img" src="img/fotos/Rafael.jpeg" alt="">
+                  <h6 class="card-title mt-2">Rafael Rocha</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Analista</h6>
+                  <a class="card-link" href="https://www.linkedin.com/in/rafael-rocha-6685a4177/" target="_blank"><img src="img/linkedin.png" alt="linkedin-icon"></a>
+                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="col-md-6 col-sm-12">
+              <div class="card my-3" style="width: 70%;">
+                <div class="card-body">
+                  <img class="card-img" src="img/fotos/Nerivaldo.jpg" alt="">
+                  <h6 class="card-title mt-2">Nerivaldo Afonso</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Analista</h6>
+                  <a class="card-link" href="https://www.linkedin.com/in/nerivaldo-afonso-santos-51234498/" target="_blank"><img src="img/linkedin.png" alt="linkedin-icon"></a>
+                 </div>
+              </div>
+            </div>
+  
+            <div class="col-md-6 col-sm-12">
+              <div class="card my-3" style="width: 70%;">
+                <div class="card-body">
+                  <img class="card-img" src="img/fotos/Neto.jpeg" alt="">
+                  <h6 class="card-title mt-2">Hildebrando Neto</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Desenvolvedor</h6>
+                  <a class="card-link" href="https://github.com/Neto1904" target="_blank"><img src="img/imagem-do-github.png" alt="github-icon"></a>
+                  <a class="card-link" href="https://www.linkedin.com/in/hildebrando-neto-829801181/" target="_blank"><img src="img/linkedin.png" alt="linkedin-icon"></a>
+                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="col-md-6 col-sm-12">
+              <div class="card my-3" style="width: 70%;">
+                <div class="card-body">
+                  <img class="card-img" src="img/fotos/Matheus.jpeg" alt="">
+                  <h6 class="card-title mt-2">Matheus Teles</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Desenvolvedor</h6>
+                  <a class="card-link" href="https://github.com/matheustdo" target="_blank"><img src="img/imagem-do-github.png" alt="github-icon"></a>
+                  <a class="card-link" href="#" target="_blank"><img src="img/linkedin.png" alt="linkedin-icon"></a>
+                 </div>
+              </div>
+            </div>
+  
+            <div class="col-md-6 col-sm-12">
+              <div class="card my-3" style="width: 70%;">
+                <div class="card-body">
+                  <img class="card-img" src="img/fotos/Vinicius.jpeg" alt="">
+                  <h6 class="card-title mt-2">Vinicius Bacelar</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Desenvolvedor</h6>
+                  <a class="card-link" href="https://github.com/bacelar-sudo" target="_blank"><img src="img/imagem-do-github.png" alt="github-icon"></a>
+                  <a class="card-link" href="https://www.linkedin.com/in/vinicius-bacelar-santana-b7a3561a4/" target="_blank"><img src="img/linkedin.png" alt="linkedin-icon"></a>
+                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col--12 d-flex justify-content-center">
+            <div class="col-md-3 col-sm-12">
+              <div class="card my-3" style="width: 70%;">
+                <div class="card-body">
+                  <img class="card-img" src="img/fotos/Thiago.jpeg" alt="">
+                  <h6 class="card-title mt-2">Felipe Damascena</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Desenvolvedor</h6>
+                  <a class="card-link" href="https://github.com/felipeDamasceno" target="_blank"><img src="img/imagem-do-github.png" alt="github-icon"></a>
+                  <a class="card-link" href="https://www.linkedin.com/in/felipe-damasceno-591301126/" target="_blank"><img src="img/linkedin.png" alt="linkedin-icon"></a>
+                 </div>
+              </div>
+            </div>
+  
+            <div class="col-md-3 col-sm-12">
+              <div class="card my-3" style="width: 70%;">
+                <div class="card-body">
+                  <img class="card-img" src="img/fotos/Ariana.jpg" alt="">
+                  <h6 class="card-title mt-2">Ariana Pereira</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Desenvolvedora</h6>
+                  <a class="card-link" href="https://github.com/arianjsp" target="_blank"><img src="img/imagem-do-github.png" alt="github-icon"></a>
+                  <a class="card-link" href="https://www.linkedin.com/in/arianajspereira/" target="_blank"><img src="img/linkedin.png" alt="linkedin-icon"></a>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <section id="projeto">
+      <div class="container">
+        <div class="row justify-content-center mb-3">
+          <h2>Conheça nossos Projetos</h2>
+        </div>
+        <div class="row justify-content-center mb-5">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="http://corona.geodatin.com" target="_blank">Portal Bahia COVID19</a></li>
+            <li class="list-group-item"><a href="www.mapbiomas.org" target="_blank">Mapbiomas</a></li>
+            <li class="list-group-item"><a href="www.alerta.mapbiomas.org" target="_blank">Mapbiomas Alerta</a></li>
+            <li class="list-group-item"><a href="www.arida.mapbiomas.org" target="_blank">Mapbiomas Árida</a></li>
+            <li class="list-group-item"><a href="#" target="_blank">Sistema de Alerta de Desmatamento para Terras Secas</a></li>
+            <li class="list-group-item"><a href="www.ba.portaldoagronegocio.com.br" target="_blank">Portal do Agronegócio</a></li>
+            <li class="list-group-item"><a href="#">Geodataseg</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
 </body>
+
+<footer class="footer-part">
+  <div class="container mt-1">
+    <div class="d-flex justify-content-center">
+      <a class="mt-2" href="mailto:contato@geodatin.com?subject=Contato pelo site" target="_blank"><img src="img/o-email.png" alt=""></a>
+      <a class="mt-2 mx-3" href="https://www.linkedin.com/company/geodatin/about/" target="_blank"><img src="img/linkedin.png" alt=""></a>
+      <a class="mt-2" href="https://www.instagram.com/geodatin/" target="_blank"><img src="img/instagram.png" alt=""></a>
+    </div>
+    <div class="d-flex justify-content-center">
+      <p class="footer-part2">Esta é uma página temporária</p>
+    </div>
+    <div class="d-flex justify-content-center">
+      <p class="text-footer">Desenvolvido por Geodatin</p>
+    </div>
+  </div>
+</footer>
+<script src="assets/bootstrap/jquery.js"></script>
+<script src="assets/bootstrap/popper.js"></script>
+<script src="assets/bootstrap/bootstrap.js"></script>
+<script src="assets/bootstrap/bootstrap.bundle.js"></script>
 </html>
